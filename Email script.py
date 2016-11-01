@@ -53,7 +53,7 @@ toaddr = "thejasonluo@gmail.com"
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
-msg['Subject'] = "Daily Update [%s]" % (date)
+msg['Subject'] = "[Roebling Group] Daily Update [%s]" % (date)
 
 html = """\
 <html>
